@@ -1,4 +1,4 @@
-# WebDev-CSS3
+# CSS-WebDev
 An evergreen CSS course and reference to level up your web styling expertise.
 
 # CSS Animation generator
@@ -13,43 +13,47 @@ Each module is full of interactive demos and self-assessments for you to test yo
 
 This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.
 
-### Here's what you'll learn:
+<h3>Here's what you'll learn:</h3>
 
-  - Box Model - Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.
-  - Selectors - To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module.
-  - The cascade - Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection.
-  - Specificity - This module takes a deeper look at specificity, a key part of the cascade.
-  - Inheritance - Some CSS properties inherit if you don't specify a value for them. Find out how this works, and how to use it to your advantage in this module.
-  - Color - There are several different ways to specify color in CSS. In this module we take a look at the most commonly used color values.
-  - Sizing Units - In this module find out how to size elements using CSS, working with the flexible medium of the web.
-  - Layout - An overview of the various layout methods you have to choose from when building a component or page layout.
-  - Flexbox - Flexbox is a layout mechanism designed for laying out groups of items in one dimension. Learn how to use it in this module.
-  - Grid - CSS Grid Layout provides a two dimensional layout system, controlling layout in rows and columns. In this module discover everything grid has to offer.
-  - Logical Properties - Logical, flow relative properties and values are linked to the flow of text, rather than the physical shape of the screen. Learn how to take advantage of this newer approach to CSS.
-  - Spacing - Find out how to select the best method of spacing elements, taking into consideration the layout method you are using and component that you need to build.
-  - Pseudo-elements - A pseudo-element is like adding or targeting an extra element without having to add more HTML. They have a variety of roles and you can learn about them in this module.
-  - Pseudo-classes - Pseudo-classes let you apply CSS based on state changes. This means that your design can react to user input such as an invalid email address.
-  - Borders - A border provides a frame for your boxes. In this module find out how to change the size, style and color of borders using CSS.
-  - Shadows - There are a number of ways to add shadows to text and elements in CSS. In this module you'll learn how to use each option, and the tasks they were designed for.
-  - Focus - Understand the importance of focus in your web applications. You'll find out how to manage focus, and how to make sure the path through your page works for people using a mouse, and those using the keyboard to navigate.
-  - Z-index and stacking contexts - In this module find out how to control the order in which things layer on top of each other, by using z-index and the stacking context.
-  - Functions - CSS has a range of inbuilt functions. In this module you will find out about some of the key functions, and how to use them.
-  - Gradients - In this module you will find out how to use the various types of gradients available in CSS. Gradients can be used to create a whole host of useful effects, without needing to create an image using a graphics application.
-  - Animations - Animation is a great way to highlight interactive elements, and add interest and fun to your designs. In this module find out how to add and control animation effects with CSS.
-  - Filters - Filters in CSS mean that you can apply effects you might only think possible in a graphics application. In this module, you can discover what is available.
-  - Blend Modes - Create compositional effects by mixing two or more layers, and learn how to isolate an image with a white background in this module on blend modes.
-  - Lists - A list, structurally, is composed of a list container element filled with list items. In this module, you'll learn how to style all the parts of a list.
-  - Transitions - In this module, learn how to define transitions between states of an element. Use transitions to improve user experience by providing visual feedback to user interaction.
-  - Overflow - Overflow is how you deal with content that doesn’t fit in a set parent size. In this module, you’ll think outside the box, and learn how to style overflowing content.
-  - Backgrounds - In this module learn the ways you can style backgrounds of boxes using CSS.
-  - Text and typography - In this module, learn how to style text on the web.
-  - Conclusion and next steps - Further resources to help you take your next steps.
- 
-# 1. Box Model
-Say you have this bit of HTML:
+<ol type="1">
+  <li>Box Model - Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.</li>
+  <li>Selectors - To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module.</li>
+  <li>The cascade - Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection.</li>
+  <li>Specificity - This module takes a deeper look at specificity, a key part of the cascade.</li>
+  <li>Inheritance - Some CSS properties inherit if you don't specify a value for them. Find out how this works, and how to use it to your advantage in this module.</li>
+  <li>Color - There are several different ways to specify color in CSS. In this module we take a look at the most commonly used color values.</li>
+  <li>Sizing Units - In this module find out how to size elements using CSS, working with the flexible medium of the web.</li>
+  <li>Layout - An overview of the various layout methods you have to choose from when building a component or page layout.</li>
+  <li>Flexbox - Flexbox is a layout mechanism designed for laying out groups of items in one dimension. Learn how to use it in this module.</li>
+  <li>Grid - CSS Grid Layout provides a two dimensional layout system, controlling layout in rows and columns. In this module discover everything grid has to offer.</li>
+  <li>Logical Properties - Logical, flow relative properties and values are linked to the flow of text, rather than the physical shape of the screen. Learn how to take advantage of this newer approach to CSS.</li>
+  <li>Spacing - Find out how to select the best method of spacing elements, taking into consideration the layout method you are using and component that you need to build.</li>
+  <li>Pseudo-elements - A pseudo-element is like adding or targeting an extra element without having to add more HTML. They have a variety of roles and you can learn about them in this module.</li>
+  <li>Pseudo-classes - Pseudo-classes let you apply CSS based on state changes. This means that your design can react to user input such as an invalid email address.</li>
+  <li>Borders - A border provides a frame for your boxes. In this module find out how to change the size, style and color of borders using CSS.</li>
+  <li>Shadows - There are a number of ways to add shadows to text and elements in CSS. In this module you'll learn how to use each option, and the tasks they were designed for.</li>
+  <li>Focus - Understand the importance of focus in your web applications. You'll find out how to manage focus, and how to make sure the path through your page works for people using a mouse, and those using the keyboard to navigate.</li>
+  <li>Z-index and stacking contexts - In this module find out how to control the order in which things layer on top of each other, by using z-index and the stacking context.</li>
+  <li>Functions - CSS has a range of inbuilt functions. In this module you will find out about some of the key functions, and how to use them.</li>
+  <li>Gradients - In this module you will find out how to use the various types of gradients available in CSS. Gradients can be used to create a whole host of useful effects, without needing to create an image using a graphics application.</li>
+  <li>Animations - Animation is a great way to highlight interactive elements, and add interest and fun to your designs. In this module find out how to add and control animation effects with CSS.</li>
+  <li>Filters - Filters in CSS mean that you can apply effects you might only think possible in a graphics application. In this module, you can discover what is available.</li>
+  <li>Blend Modes - Create compositional effects by mixing two or more layers, and learn how to isolate an image with a white background in this module on blend modes.</li>
+  <li>Lists - A list, structurally, is composed of a list container element filled with list items. In this module, you'll learn how to style all the parts of a list.</li>
+  <li>Transitions - In this module, learn how to define transitions between states of an element. Use transitions to improve user experience by providing visual feedback to user interaction.</li>
+  <li>Overflow - Overflow is how you deal with content that doesn’t fit in a set parent size. In this module, you’ll think outside the box, and learn how to style overflowing content.</li>
+  <li>Backgrounds - In this module learn the ways you can style backgrounds of boxes using CSS.</li>
+  <li>Text and typography - In this module, learn how to style text on the web.</li>
+  <li>Conclusion and next steps - Further resources to help you take your next steps.</li>
+</ol>
+
+<h2 id="#box-model">1. Box Model</h2>
+<p>Say you have this bit of HTML:</p>
+
 ```[html]
 <p>I am a paragraph of text that has a few words in it.</p>
 ```
+
 Then you write this CSS for it:
 
 ```[css]
