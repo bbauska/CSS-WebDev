@@ -15,8 +15,10 @@ An evergreen CSS course and reference to level up your web styling expertise.
 
 <h3>Here's what you'll learn:</h3>
 
-    | <b>Selectors</b> | To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module. | 
-    | <b>The cascade</b> | Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection. | 
+| CSS term | Description |
+|----------|-------------|
+| <b>Selectors</b> | To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module. | 
+| <b>The cascade</b> | Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection. | 
     | <b>Specificity</b> | This module takes a deeper look at specificity, a key part of the cascade. | 
     | <b>Inheritance</b> | Some CSS properties inherit if you don't specify a value for them. Find out how this works, and how to use it to your advantage in this module. | 
     | <b>Color</b> | There are several different ways to specify color in CSS. In this module we take a look at the most commonly used color values. | 
