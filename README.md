@@ -15,7 +15,7 @@ This course is created for beginner and advanced CSS developers alike. You can g
 
 <h3>Here's what you'll learn:</h3>
 
-<ol type="1">
+<h4><ol type="1">
   <li>Box Model - Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.</li>
   <li>Selectors - To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module.</li>
   <li>The cascade - Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection.</li>
@@ -46,6 +46,7 @@ This course is created for beginner and advanced CSS developers alike. You can g
   <li>Text and typography - In this module, learn how to style text on the web.</li>
   <li>Conclusion and next steps - Further resources to help you take your next steps.</li>
 </ol>
+</h4>
 
 <h2 id="#box-model">1. Box Model</h2>
 <p>Say you have this bit of HTML:</p>
@@ -142,8 +143,7 @@ intrinsicSwitch.addEventListener("change", () => {
 });
 ```
 
-![box model output from jsbin](https://github.com/bbauska/webdev-css/assets/41387907/8349146d-bf04-40bd-b2c3-8f79bf531dc3)
-
+<p><a href="https://github.com/bbauska/webdev-css/assets/41387907/8349146d-bf04-40bd-b2c3-8f79bf531dc3">Box Model Output using jsBin</a>.</p
 
 Notice that when the box is using extrinsic sizing, there's a limit of how much 
 content you can add before it overflows out of the box's bounds. This makes the 
