@@ -1,10 +1,10 @@
-# WebDev-CSS
+# WebDev-CSS3
 An evergreen CSS course and reference to level up your web styling expertise.
 
 # CSS Animation generator
 https://angrytools.com/css/animation/
 
-## Welcome to Learn CSS! #
+## Welcome to Learn CSS3! #
 This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.
 
 You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.
