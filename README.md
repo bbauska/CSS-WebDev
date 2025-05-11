@@ -1,7 +1,10 @@
+<!-- readme.md of CSS3-WebDev -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1 id="css-webdev">CSS3-WebDev: All CSS3 stem to stern.</h1>
+<h1 id="css-webdev">CSS-WebDev</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Perhaps: An evergreen CSS course and reference to level up your web styling expertise.</p>
+
+<p><a href="https://github.com/bbauska/CSS3-WebDev/blob/main/README.md">CSS3 WebDev</a></p>
 
 <h3><a href="https://www.youtube.com/@OptimisticWeb">Optimistic Web</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12,16 +15,26 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="welcome">Welcome to Learn CSS3!</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.</p>
-<p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
-<p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
-<p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.</p>
+<p>This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. 
+Over the next few modules, you'll learn how the core aspects of CSS work and how to use them 
+effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.</p>
+<p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid 
+and z-index. And, along with these fundamentals, you'll learn about functions, color types, 
+gradients, logical properties and inheritance to make you a well-rounded front-end developer, 
+ready to take on any user interface.</p>
+<p>Each module is full of interactive demos and self-assessments for you to test your knowledge. 
+In addition to learning through reading and demos, there is an accompanying podcast episode for 
+each topic as another way to learn and continue expanding your knowledge.</p>
+<p>This course is created for beginner and advanced CSS developers alike. You can go through 
+the series from start to finish to get a general understanding of CSS from top to bottom, or 
+you can use it as a reference for specific styling subjects. For those new to web development 
+overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Here's what you'll learn:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-| CSS term           | Description |
-|--------------------|----------------------|
+| CSS term | Description |
+|----------|-------------|
 | <b>01. Box Model</b> | Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS. |
 | <b>02. Selectors</b> | To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module. | 
 | <b>03. The cascade</b> | Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection. | 
@@ -104,16 +117,24 @@ p {
 }
 ```
 
-The content would break out of your element and it would be 142px wide, rather than 100px. Why is that? The box model is a core foundation of CSS and understanding how it works, how it is affected by other aspects of CSS and importantly, how you can control it will help you to write more predictable CSS.
+The content would break out of your element and it would be 142px wide, rather than 100px. Why is 
+that? The box model is a core foundation of CSS and understanding how it works, how it is affected 
+by other aspects of CSS and importantly, how you can control it will help you to write more 
+predictable CSS.
 
 https://codepen.io/web-dot-dev/pen/WNRemxN
 
-A really important thing to remember when writing CSS, or working on the web as a whole, is that everything displayed by CSS is a box. Whether that's a box that uses border-radius to look like a circle, or even just some text: the key thing to remember is that it's all boxes.
+A really important thing to remember when writing CSS, or working on the web as a whole, is that 
+everything displayed by CSS is a box. Whether that's a box that uses border-radius to look like 
+a circle, or even just some text: the key thing to remember is that it's all boxes.
 
 Content and sizing #
-Boxes have different behavior based on their display value, their set dimensions, and the content that lives within them. This content could be even more boxes—generated by child elements—or plain text content. Either way, this content will affect the size of the box by default.
+Boxes have different behavior based on their display value, their set dimensions, and the content 
+that lives within them. This content could be even more boxes—generated by child elements—or plain 
+text content. Either way, this content will affect the size of the box by default.
 
-You can control this by using extrinsic sizing, or, you can continue to let the browser make decisions for you based on the content size, using intrinsic sizing.
+You can control this by using extrinsic sizing, or, you can continue to let the browser make 
+decisions for you based on the content size, using intrinsic sizing.
 
 Let's quickly look at the difference, using a demo to help us.
 
@@ -181,19 +202,21 @@ intrinsicSwitch.addEventListener("change", () => {
 });
 ```
 
-<p><a href="https://github.com/bbauska/webdev-css/assets/41387907/8349146d-bf04-40bd-b2c3-8f79bf531dc3">Box Model Output using jsBin</a>.</p
+<p><a href="https://github.com/bbauska/webdev-css/assets/41387907/8349146d-bf04-40bd-b2c3-8f79bf531dc3">
+Box Model Output using jsBin</a>.</p
 
 Notice that when the box is using extrinsic sizing, there's a limit of how much 
 content you can add before it overflows out of the box's bounds. This makes the 
 word, "awesome", overflow.
 
-The demo has the words, "CSS is awesome" in a box with fixed dimensions and a thick border. The box has a width, so 
-is extrinsically sized. It controls the sizing of its child content. The problem with this though, is that the word 
-"awesome" is too large for the box, so it overflows outside of the parent box's border box (more on this later in 
-the lesson). One way to prevent this overflow is to allow the box to be intrinsically sized by either unsetting 
-the width, or in this case, setting the width to be min-content. The min-content keyword tells the box to only 
-be as wide as the intrinsic minimum width of its content (the word "awesome"). This allows the box to fit around 
-"CSS is awesome", perfectly.
+The demo has the words, "CSS is awesome" in a box with fixed dimensions and a thick border. The box 
+has a width, so is extrinsically sized. It controls the sizing of its child content. The problem 
+with this though, is that the word "awesome" is too large for the box, so it overflows outside of 
+the parent box's border box (more on this later in the lesson). One way to prevent this overflow is 
+to allow the box to be intrinsically sized by either unsetting the width, or in this case, setting 
+the width to be min-content. The min-content keyword tells the box to only be as wide as the intrinsic 
+minimum width of its content (the word "awesome"). This allows the box to fit around "CSS is awesome", 
+perfectly.
 
 Let's look at something more complex to see the impact of different sizing on real content:
 
@@ -278,7 +301,8 @@ intrinsicSwitch.addEventListener("change", () => {
 });
 ```
 
-<p><a href="https://github.com/bbauska/webdev-css/assets/41387907/45136414-76c7-4270-8713-cc660d54307b)">CSS Webdev Assets</a></p>
+<p><a href="https://github.com/bbauska/webdev-css/assets/41387907/45136414-76c7-4270-8713-cc660d54307b)">
+CSS3 WebDev Assets</a></p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="#02-selectors">02. Selectors</h2>
