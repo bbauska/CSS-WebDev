@@ -1,6 +1,9 @@
 # WebDev-CSS
 An evergreen CSS course and reference to level up your web styling expertise.
 
+# CSS Animation generator
+https://angrytools.com/css/animation/
+
 ## Welcome to Learn CSS! #
 This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.
 
