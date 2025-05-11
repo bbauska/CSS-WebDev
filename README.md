@@ -1,23 +1,23 @@
-# CSS-WebDev
+<h1 id="css-webdev">CSS-WebDev</h1>
 An evergreen CSS course and reference to level up your web styling expertise.
 
-# CSS Animation generator
-https://angrytools.com/css/animation/
+<h2 id="css-animate">CSS Animation generator</h2>
+<p><a href="https://angrytools.com/css/animation/">Angry Tools CSS Animation</a></p>
 
-## Welcome to Learn CSS3! #
-This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.
+<h2 id="welcome">Welcome to Learn CSS3!</h2>
+<p>This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.</p>
 
-You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.
+<p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
 
-Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.
+<p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
 
-This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.
+<p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.</p>
 
 <h3>Here's what you'll learn:</h3>
 
-<h4><ol type="1">
-  <li>Box Model - Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.</li>
-  <li>Selectors - To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module.</li>
+<ol type="1">
+  <li><h4>Box Model</h4> <p>- Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.</p></li>
+  <li><h4>Selectors</h4> <p>- To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module.</p></li>
   <li>The cascade - Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection.</li>
   <li>Specificity - This module takes a deeper look at specificity, a key part of the cascade.</li>
   <li>Inheritance - Some CSS properties inherit if you don't specify a value for them. Find out how this works, and how to use it to your advantage in this module.</li>
@@ -46,7 +46,6 @@ This course is created for beginner and advanced CSS developers alike. You can g
   <li>Text and typography - In this module, learn how to style text on the web.</li>
   <li>Conclusion and next steps - Further resources to help you take your next steps.</li>
 </ol>
-</h4>
 
 <h2 id="#box-model">1. Box Model</h2>
 <p>Say you have this bit of HTML:</p>
