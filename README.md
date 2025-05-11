@@ -20,8 +20,8 @@
 <h3>Here's what you'll learn:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-| CSS term | Description |
-|----------|-------------|
+| CSS term           | Description |
+|--------------------|----------------------|
 | <b>01. Box Model</b> | Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS. |
 | <b>02. Selectors</b> | To apply CSS to an element you need to select it. CSS provides you with a number of different ways to do this, and you can explore them in this module. | 
 | <b>03. The cascade</b> | Sometimes two or more competing CSS rules could apply to an element. In this module find out how the browser chooses which to use, and how to control this selection. | 
